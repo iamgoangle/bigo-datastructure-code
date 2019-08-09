@@ -1,5 +1,7 @@
 package main
 
+// Logarithmic
+
 import (
 	"errors"
 	"fmt"
