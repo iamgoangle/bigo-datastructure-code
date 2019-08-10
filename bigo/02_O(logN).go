@@ -24,6 +24,8 @@ import (
 	right = 3
 */
 
+// https://play.golang.org/p/tcPyOaxD0sj
+
 func main() {
 	lists := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 	find := 7
