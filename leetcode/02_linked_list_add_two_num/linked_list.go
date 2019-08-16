@@ -57,10 +57,15 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 
 func print(l *ListNode) {
+	temp := &ListNode{}
+	temp = l
 	fmt.Println(l.Val)
+
 	nextNode := l.Next
 
 	if nextNode != nil {
 		print(nextNode)
 	}
+
+	fmt.Printf("%+v\n", temp)
 }
