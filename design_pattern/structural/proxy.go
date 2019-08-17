@@ -31,5 +31,6 @@ func NewProxy() Employee {
 }
 
 func (p *Proxy) GetEmployee() {
+	fmt.Println("Do something in proxy")
 	p.Emp.GetEmployee()
 }
